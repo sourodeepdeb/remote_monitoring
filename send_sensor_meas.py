@@ -163,6 +163,6 @@ def get_pH():
 	return 1.0 * sum(pH_meas)/len(pH_meas)
 
 
-
-print(send_todays_temp_and_moisture_and_pH())
+if __name__ == '__main__':
+	print(send_todays_temp_and_moisture_and_pH())
 
